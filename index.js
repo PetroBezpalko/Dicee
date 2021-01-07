@@ -1,6 +1,6 @@
 var started = false;
 
-$("body").click(function() {
+document.querySelector("body").click(function() {
   if (!started) {
     started = true;
   } else {
