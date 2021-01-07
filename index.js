@@ -1,6 +1,6 @@
 var started = false;
 
-document.querySelector("body").click(function() {
+document.addEventlistener("click"), function() {
   if (!started) {
     started = true;
   } else {
